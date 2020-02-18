@@ -1,0 +1,64 @@
+.main-border {
+  padding: 16px;
+  border: 1px #e8e8e8 solid;
+  border-radius: 3px;
+  width: 100%;
+}
+.dropzone {
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+}
+.main-border aside {
+    padding-top: 10px;
+}
+.main-border p {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+}
+.img_files li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+  position: relative;
+}
+.img_files li .badge {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9px;
+  width: 70px;
+  z-index: 1;
+  margin: 0 auto;
+}
+.custom-file-upload {
+  position: relative;
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+}
+.custom-file-upload input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+.custom-file-upload span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #8a8b8e;
+  line-height: 34px;
+}

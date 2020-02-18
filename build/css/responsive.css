@@ -1,0 +1,64 @@
+@media (max-width: 767px){
+     .service-nav ul li {
+         padding-right: 0px;
+     }
+     .service-info-bg {
+         padding: 20px 15px;
+     }
+     .info-slider-list li {
+         font-size: 15px;
+         padding: 25px 10px 0px;
+     }
+     /*pricing css*/
+     .pricing-heading h1 {
+        font-size: 30px;
+     }
+     .pricing-heading {
+        text-align: center;
+     }
+     .pricing-left-paragraf p {
+        white-space: inherit;
+        line-height: 25px;
+     }
+     .pricing-left-heading h4 {
+        padding-bottom: 10px;
+     }
+     .pricing-left-paragraf {
+        padding: 10px 0px;
+     }
+     .pricing-right {
+        position: static;
+        padding: 0px 15px;
+     }
+     .pricing {
+        padding-bottom: 0;
+     }
+     .pricing-right-list ul {
+        padding-left: 15px; 
+     }
+}
+
+@media (max-width: 991px){
+    .service-info-bg {
+       padding: 15px 15px;
+    }
+    .pricing-right {
+        padding: 0px 15px;
+        position: static;
+    }
+    .pricing-left-paragraf p {
+        white-space: inherit;
+    }
+    .pricing {
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 1024px){
+    .pricing-right {
+        padding: 0px 15px;
+        position: static;
+    }
+    .pricing {
+        padding-bottom: 0;
+    }
+ }

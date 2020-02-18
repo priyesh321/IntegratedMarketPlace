@@ -1,0 +1,189 @@
+.create-listing-heading h1 {
+  color: #000;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.create-form {
+  padding-bottom: 15px;
+}
+.create-form input {
+  height: 45px;
+  font-size: 16px;
+}
+.create-form label {
+  color: #ababab;
+  font-weight: 500;
+  margin: 0;
+  font-size: 14px;
+}
+.hours-heading {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px 0 10px;
+}
+.create-form select {
+  height: 45px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.create-form textarea {
+  height: 80px;
+}
+.listing-form-btn ul li {
+    display: inline-block;
+}
+.cancel {
+  padding: 10px 31px;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(bottom right, #9E9D9E 50%, #989898 50%);
+  background: linear-gradient(to top left, #989898 50%, #9E9D9E 50%);
+  background: -webkit-linear-gradient(to top left, #989898 50%, #9E9D9E 50%);
+  background: -ms-linear-gradient(to top left, #989898 50%, #9E9D9E 50%);
+  margin-left: 15px;
+  color: #fff;
+  font-weight: 500;
+  padding: 14px 70px;
+  border-radius: 50px;
+}
+.publish {
+  box-shadow: 0px 13px 10px -14px #0072ce;
+  background: -webkit-linear-gradient(bottom right, #0072ce 50%, #0f7ad0 50%);
+  background: linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+  background: -webkit-linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+  background: -ms-linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  padding: 14px 70px;
+  margin-left: 25px;
+  box-shadow: 0px 13px 10px -14px #0072ce;
+}
+.publish:hover, .cancel:hover {
+    color: #fff;
+}
+.react-datepicker__time-container {
+  width: 161px;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  width: 161px;
+}
+
+/*new css*/
+
+.listing-img img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+.main-listing-form {
+    margin-bottom: 5px;
+    position: relative;
+}
+.main-listing-form label {
+    color: #ababab;
+    font-weight: 800;
+    font-size: 10px;
+    position: absolute;
+    bottom: 35px;
+    background: #fff;
+    left: 15px;
+    padding: 0 7px;
+    margin: 0;
+    z-index: 1;
+}
+.main-listing-form input {
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 37px;
+}
+.input-btm-text {
+    font-size: 10px;
+    display: block;
+    text-align: right;
+    color: #ababab;
+}
+.main-listing-form h5 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.main-listing-form p {
+    font-size: 10px;
+    color: #ababab;
+    line-height: 16px;
+}
+.add-btn {
+  background: #fff;
+  border: 1px solid #ced4da;
+  padding: 0px 10px;
+  border-radius: .25rem;
+  color: #0f7ad0;
+  cursor: pointer;
+  height: 45px;
+  width: 100%;
+}
+select.categorie-select {
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.listing-textarea label {
+    bottom: 90px;
+}
+.listing-textarea textarea {
+    height: 100px;
+}
+.react-datepicker-popper {
+    z-index: 8;
+    left: 1px !important;
+}
+.css-yk16xz-control {
+  height: 45px;
+  border-color: #ced4da;
+}
+.css-1hwfws3 {
+  height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 10px !important;
+  line-height: 15px;
+}
+.select-label {
+    color: #ababab;
+    font-weight: 800;
+    font-size: 10px;
+    position: absolute;
+    background: #fff;
+    left: 30px;
+    padding: 0 7px;
+    margin: -5px 0;
+    z-index: 4;
+}
+.css-1pahdxg-control:hover {
+  border-color: #80bdff !important;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) !important;
+  outline: none;
+}
+.css-1pahdxg-control:focus {
+  border-color: #80bdff !important;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) !important;
+  outline: none;
+}
+.main-listing-form span.currency {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    font-weight: 600;
+}
+.currency-input {
+  padding-left: 33px;
+}
+.form-error {
+  position: absolute;
+  font-size: 13px;
+  color: red;
+  display: block;
+}

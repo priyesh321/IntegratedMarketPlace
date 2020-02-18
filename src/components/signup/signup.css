@@ -1,0 +1,157 @@
+.signup-header h5 {
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+.signup-header p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+}
+.modal-padding {
+    padding: 5em;
+}
+.form-signup {
+    background: linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+    background: -webkit-linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+    background: -moz-linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+    background: -o-linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+    background: -ms-linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+    border-radius: 50px;
+    padding: 12px 120px;
+}
+.main-popup-input label {
+    color: #ababab;
+    font-weight: 800;
+    font-size: 10px;
+    position: absolute;
+    bottom: 35px;
+    background: #fff;
+    left: 15px;
+    padding: 0 7px;
+    margin: 0;
+    z-index: 4;
+}
+.main-popup-input input:focus, .select-box:focus {
+    border: 1px solid #ced4da;
+    box-shadow: inherit;
+}
+.main-popup-input input {
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 37px;
+}
+.select-box {
+    background: url(/images/down-arrow.png) no-repeat right;
+    -webkit-appearance: none;
+    background-position: 95%;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 37px;
+}
+.main-popup-input {
+    margin-bottom: 30px;
+    position: relative;
+}
+.close {
+    font-size: 53px;
+    font-weight: 200;
+    color: #333;
+}
+.check-text {
+   font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+}
+#datepicker > span:hover {
+    cursor: pointer;
+}
+.input-group-addon {
+    position: absolute;
+    right: 7px;
+    top: 9px;
+    color: #ababab;
+    font-size: 20px;
+}
+.password {
+    position: absolute;
+    bottom: 5px;
+    right: 14px;
+    font-size: 24px;
+}
+.form-error {
+    position: absolute;
+    font-size: 13px;
+    color: red;
+    display: block;
+}
+.input-text {
+    font-size: 10px;
+    line-height: 18px;
+    display: block;
+    padding: 0 0 10px 0;
+    margin-top: 13px;
+    
+}
+.input-error-text {
+    font-size: 13px;
+    color: red;
+    display: block;
+}
+.alert .close {
+    top: -22px;
+    right: -10px;
+    font-size: 40px;
+}
+/*modal popup css*/
+.header-pad {
+    padding-left: 45px;
+}
+p.secured_text {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+.secured_text i {
+    color: #ababab;
+    margin-right: 15px;
+    font-size: 18px;
+    vertical-align: middle;
+} 
+a.forgot-password {
+    color: #0072ce ;
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+    margin: 0;
+    font-weight: 600;
+    display: block;
+}
+.account {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    line-height: 81px;
+}
+#overlay-example.show {
+    opacity: 1;
+}
+#overlay-example .tooltip-inner {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 35px #bdbdbd;
+    font-style: italic;
+    font-size: 12px;
+    max-width: 290px;
+    text-align: left;
+    opacity: 1;
+    text-shadow: none;
+}
+#overlay-example[x-placement^=top] .arrow::before, #overlay-example .arrow::before {
+    border-top-color: #fff;
+}

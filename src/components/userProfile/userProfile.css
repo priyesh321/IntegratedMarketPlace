@@ -1,0 +1,66 @@
+/* breadcrumbs css */
+.service-nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.service-nav ul li a i {
+     font-size: 10px;
+     padding-right: 10px;
+     color: #6b6b6b;
+}
+.service-nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+}
+/* breadcrumbs css end */
+
+.service-info-bg {
+    padding: 60px 80px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.alert .close {
+    top: -14px;
+    right: -10px;
+    font-size: 40px;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+.react-datepicker__input-container {
+    width: 100%;
+}
+.profile-paragraf p {
+    color: #333;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.profile-paragraf button:hover {
+    text-decoration: none;
+}
+.profile-paragraf button {
+    font-size: 14px;
+    font-weight: 500;
+}
+.profile-image {
+    max-width: 200px;
+    border-radius: 100%;
+    height: 200px;
+}
+.file-btn input[type="file"] {
+    display: none;
+}
+.file-btn label {
+    padding: 15px 50px;
+    display: table;
+    color: #fff;
+    margin: 0 auto;
+    background: linear-gradient(to top left, #0072ce 50%, #0f7ad0 50%);
+    border-radius: 50px;
+}

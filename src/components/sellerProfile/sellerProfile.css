@@ -1,0 +1,40 @@
+.seller-user img {
+    max-width: 225px;
+    border: 5px solid #23cf5f;
+    margin: 0 auto;
+    display: block;
+}
+.seller-user h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+.seller-user h6 {
+    color: #6b6b6b;
+    font-size: 18px;
+}
+.seller-user a span {
+    color: #000;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+.seller-user a i {
+    color: #23cf5f;
+    padding-right: 10px;
+}
+.seller-user a:first-child {
+    padding-right: 30px;
+}
+.seller-rating {
+    top: -16px;
+    background: #23cf5f;
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 14px;
+    border-radius: 50px;
+    vertical-align: middle;
+    font-weight: 600;
+    position: relative;
+    border: 4px solid #fff;
+}
+    
